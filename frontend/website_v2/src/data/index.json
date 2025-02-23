@@ -1,0 +1,66 @@
+{
+    "skills": [
+        
+    
+        {
+            "id": 1,
+            "src":"./img/back_end.png",
+            "title": "Back-End",
+            "description": "Proficient development frameworks such as FastAPI and Flask with docker.  Proficient in SQL and frequently use postgreSQL for data storage. Automated complex file parsing for data  injestion."
+        },
+        {
+            "id": 2,
+            "src":"./img/machine_learning.png",
+            "title":"Data Analysis and Visualization",
+            "description": "Proficient in Python as well as popular modules such as Pandas, Scikit-learn, matplotlib, seaborn, and general data cleaning tasks.  Created automated reports for junior chemists." 
+
+        },
+        {
+            "id": 3,
+            "src":"./img/computer_vision.png",
+            "title": "Computer Vision",
+            "description": "Model training and testing (93% accuracy) using pytorch. Experience with model benchmarking using other image detection models such as yolov8, and my own custom CNN model"
+        },
+        {
+            "id": 4,
+            "src":"./img/llm.png",
+            "title": "Large Language Modeling",
+            "description": "Lorem ipsum"
+        },
+        {
+            "id": 5,
+            "src":"./img/front_end.png",
+            "title": "Front-End",
+            "description": "Beginner level experience with React and Node.js"
+        }
+    ],
+    "portfolio": [
+        
+    
+        {
+            "id": 1,
+            "src":"./img/back_end.png",
+            "title": "Data analysis and Modeling Example",
+            "description": "I used a proprietary version of this code to work on a project with a small dataset.  After data cleaning, preliminary EDA is conducted, and benchmark modeling on various model types including DT, RF, SVG, ada, linear regression are compared.  Data not included.",
+            "link" : "View In Github",
+            "link_url" : "https://github.com/zaleonard/regression_model_example" 
+        },
+        {
+            "id": 2,
+            "src":"./img/machine_learning.png",
+            "title":"Computer Vision",
+            "description": "Various computer vision models benchmarked using Kaggle's Fashion MNIST dataset.  This is currently a work in progress, but recent commits can be seen below.",
+            "link" : "View In Github",
+            "link_url" : "https://github.com/zaleonard/fashion_mnist_modeling" 
+
+        },
+        {
+            "id": 3,
+            "src":"./img/computer_vision.png",
+            "title": "LLM",
+            "description": "IN PROCESS, LINK NOT AVAILABLE",
+            "link" : "View In Github",
+            "link_url" : "" 
+        }
+    ]
+}
