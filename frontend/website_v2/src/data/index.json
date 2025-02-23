@@ -39,7 +39,7 @@
     
         {
             "id": 1,
-            "src":"./img/back_end.png",
+            "img":"placeholder",
             "title": "Data analysis and Modeling Example",
             "description": "I used a proprietary version of this code to work on a project with a small dataset.  After data cleaning, preliminary EDA is conducted, and benchmark modeling on various model types including DT, RF, SVG, ada, linear regression are compared.  Data not included.",
             "link" : "View In Github",
@@ -47,7 +47,7 @@
         },
         {
             "id": 2,
-            "src":"./img/machine_learning.png",
+            "img":"./img/results.png",
             "title":"Computer Vision",
             "description": "Various computer vision models benchmarked using Kaggle's Fashion MNIST dataset.  This is currently a work in progress, but recent commits can be seen below.",
             "link" : "View In Github",
@@ -56,7 +56,7 @@
         },
         {
             "id": 3,
-            "src":"./img/computer_vision.png",
+            "img":"placeholder",
             "title": "LLM",
             "description": "IN PROCESS, LINK NOT AVAILABLE",
             "link" : "View In Github",
