@@ -81,6 +81,7 @@ function Footer() {
                   height="32"
                   viewBox="0 0 33 33"
                   fill="none"
+                  style={{background: "white"}}
                 >
                   <path
                     fill-rule="evenodd"

@@ -37,7 +37,7 @@ export default function MyPortfolio() {
                         <div>
                             <h3 className="portfolio--section--title">{item.title}</h3>
                             <p className="text-md">{item.description}</p>
-                            <p className="text-sm portfolio--link" onClick={() => window.location.href =item.link_url}>
+                            <p className="text-sm portfolio--link" style= {{color :'#e62872' }} onClick={() => window.location.href =item.link_url}>
                 {item.link}
                 <a href={item.link_url}>
                 <svg

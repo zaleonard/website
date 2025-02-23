@@ -10,16 +10,16 @@ body {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+    color: var(--darkblue)
 }
 
 :root {
-    --primary: #6724a7;
-    --heading-color: #282938;
-    --bg-shade: #e7f8ee;
+    --primary: #a395f5;
+    --heading-color: #b5b9f1;
+    --bg-shade: #373837;
     --github: #e62872;
-    --darkblue: #1c1e53;
+    --darkblue: #8286f5;
     --black: #000000;
-    --white: #ffffff;
 }
 
 .btn {
@@ -48,30 +48,30 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn-outline-primary {
     color: var(--primary);
-    background-color: var(--white);
+    background-color: var(--black);
     border: 1px solid var(--primary);
 
 }
 .btn-outline-primary {
-    color: var(--white);
+    color: var(--black);
     background-color: var(--primary);
     
 }
 
 .btn-primary {
-    color: var(--white);
+    color: var(--black);
     background-color: var(--primary);
     border: 1px solid var(--primary);
 
 }
 .btn-primary:hover {
     color: var(--primary);
-    background-color: var(--white);
+    background-color: var(--black);
     
 }
 
 .btn-github {
-    color: var(--white);
+    color: var(--black);
     background: var(--github);
     border: var(--github);
     display: flex;
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn-github:hover {
     color: var(--github);
-    background-color: var(--white);
+    background-color: var(--black);
 }
 
 /* Global CSS ends */
@@ -186,7 +186,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 15px 85.333px;
-    background: var(--white);
+    background: var(--black);
     box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -200,10 +200,14 @@ h3 {
     align-items: flex-start;
     gap: 42.667px;
     text-decoration: none;
+    background-color: var(--black);
+
   }
 
   .navbar--items ul > li > a {
     text-decoration: none;
+    background-color: var(--black);
+
   }
 
   /* Navbar Content */
@@ -218,6 +222,8 @@ h3 {
 
   .navbar--active-content {
     color: var(--primary);
+    background-color: var(--black);
+
   }
 /* Navbar Styler Ends */
 
@@ -304,6 +310,7 @@ h3 {
     justify-content: center;
     align-items: flex-start;
     gap: 106.667px;
+    background-color: #000000;
   }
 
   .skills--section--heading {
@@ -394,7 +401,7 @@ h3 {
   }
   
   .skills--section--description {
-    color: var(--black);
+    color: #c5adf1;
     font-size: 21.3px;
     font-style: normal;
     font-weight: 400;
@@ -409,6 +416,7 @@ h3 {
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);
+    background-color: var(--bg-shade);
   }
   .about--section--img > img {
     width: 100%;
@@ -423,6 +431,7 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
+    background-color: var(--black);
   }
 
   .portfolio--container--box {
@@ -462,7 +471,7 @@ h3 {
     align-items: flex-start;
     gap: 32px;
     flex: 1 0 0;
-    background: #fff;
+    background: var(--bg-shade);
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     border-top-left-radius: 12px;
@@ -505,6 +514,7 @@ h3 {
     align-items: center;
     text-align: center;
     gap: 64px;
+    background-color: var(--bg-shade);
   }
 
   .contact--form--container {
@@ -538,8 +548,9 @@ h3 {
     align-items: center;
     align-self: stretch;
     border-radius: 8px;
+    color: var(--primary);
     border: 1.333px solid var(--primary);
-    background: var(--white);
+    background: var(--black);
   }
 
   select {
@@ -580,7 +591,7 @@ h3 {
   padding: 106.667px 85.333px;
   flex-direction: column;
   align-items: flex-start;
-  background: var(--bg-shade);
+  background: var(--black);
   align-items: center;
   align-self: stretch;
 }
