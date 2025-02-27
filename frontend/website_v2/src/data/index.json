@@ -25,7 +25,7 @@
             "id": 4,
             "src":"./img/llm.png",
             "title": "Large Language Modeling",
-            "description": "Lorem ipsum"
+            "description": "Base of understanding in LLM data structure, pre-training, and inference."
         },
         {
             "id": 5,
@@ -56,11 +56,11 @@
         },
         {
             "id": 3,
-            "img":"placeholder",
-            "title": "LLM",
-            "description": "IN PROCESS, LINK NOT AVAILABLE",
+            "img":"./img/front_end_example.png",
+            "title": "Front-End",
+            "description": "Full code provided to this website using react.",
             "link" : "View In Github",
-            "link_url" : "" 
+            "link_url" : "https://github.com/zaleonard/website" 
         }
     ]
 }
