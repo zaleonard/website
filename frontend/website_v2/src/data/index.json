@@ -39,7 +39,7 @@
     
         {
             "id": 1,
-            "img":"placeholder",
+            "img":"./img/modeling_example.png",
             "title": "Data analysis and Modeling Example",
             "description": "I used a proprietary version of this code to work on a project with a small dataset.  After data cleaning, preliminary EDA is conducted, and benchmark modeling on various model types including DT, RF, SVG, ada, linear regression are compared.  Data not included.",
             "link" : "View In Github",
