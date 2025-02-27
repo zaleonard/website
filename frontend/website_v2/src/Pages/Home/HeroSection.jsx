@@ -6,15 +6,15 @@ export default function HeroSection(){
             <div className='hero--section--content--box'>
                 <div className = 'hero--section--content'>
                     <p className = 'section--title'>
-                        Hello, I'm Zach 
+                        Hi, I'm Zach.
                     </p>
                     <h1 className='hero--section--title'>
                         <span className='hero--section--title--color'>Certified Data Scientist </span>
                     </h1>
                     <p className='hero--section--description'>
-                        I am a Senior Scientist in the technical field of Chemistry who has ten years of experience in organic chemistry, process development, and statistics.  Over the past two years, I have received my professional Data Scientist certificate from Datacamp and have employed data science best practices within my field.<br/>
+                        I am a Senior Scientist in the technical field of Chemistry with over ten years of experience in organic chemistry, process development, and statistics.  Over the past two years, I have received my professional Data Scientist certificate from Datacamp and have employed data science best practices within my field.<br/>
                         <br /> I have implemented full-stack, and back-end development projects, and machine learning projects in my current field of work which has enabled scientists to redefine how they visualize and interpret our specialized data.  Additionally, I have completed various data science projects focused on computer vision, and LLM on my personal time using trusted kaggle datasets. <br/>
-                        <br /> I very much look forward to transitioning full-time to a data science or back-end developer position.
+                        <br /> I very much look forward to exploring where my love for data science and statistics will take me.
                     </p>
                 </div>
                     <Link
